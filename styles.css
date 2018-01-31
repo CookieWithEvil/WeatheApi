@@ -1,0 +1,50 @@
+body{
+   margin: 0;
+   height: 900px;
+   background-size: 100% 100%;
+   font-family: Arial;
+}
+
+#temperature{
+   margin: 10% auto 20px;
+   min-height: 10px;
+   width: 130px;
+   text-align: center;
+}
+#temp-val{  
+   font-size: 350%;
+   color: white;
+}
+
+#container{
+   min-height: 30px;
+   text-align: center;
+}
+#loc,#sky,#humidity,#wind{
+   display: inline-block;
+   min-height: 50px;
+   min-width: 130px;
+   font-size: 200%;
+   vertical-align: middle;
+   background: rgba(255, 255, 255, 0.5);
+}
+#sky{
+   margin: 0 10px;
+}
+#humidity{
+   margin: 0 10px 0 0;
+}
+#reload{
+   position: absolute;
+   top: 0;
+   left: 90%;
+   display: inline-block;
+   line-height: 50px;
+   width: 50px;
+   color: black;
+   border-radius: 50%;
+   background: rgba(255, 255, 255, 0.5);
+}
+#reload:hover{
+   text-decoration: none;
+}
